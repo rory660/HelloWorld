@@ -2,7 +2,7 @@
 Hello world in every language I've used.
 
 ## Languages
-Language | Files | Lines | Characterss
+Language | Files | Lines | Characters
 --- | --- | --- | ---
 Batch File | 1 | 1 | 18
 Brainfuck | 1 | 1 | 115
