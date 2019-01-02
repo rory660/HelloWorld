@@ -5,7 +5,7 @@ Hello world in every language I've used.
 Language | Files | Lines | Characters
 --- | --- | --- | ---
 Batch File | 1 | 1 | 18
-Brainfuck | 1 | 2 | 109
+Brainfuck | 1 | 1 | 108
 C | 1 | 5 | 78
 C# | 1 | 8 | 133
 Haskell | 1 | 1 | 30
