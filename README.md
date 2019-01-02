@@ -5,6 +5,7 @@ Hello world in every language I've used.
 Language | files | lines | characters
 --- | --- | --- | ---
 Batch File | 1 file | 1 line | 18 characters
+Brainfuck | 1 file | 1 line | 115 characters
 C | 1 file | 5 lines | 78 characters
 C# | 1 file | 8 lines | 133 characters
 Haskell | 1 file | 1 line | 30 characters
