@@ -2,14 +2,14 @@
 Hello world in every language I've used.
 
 ## Languages
-Language | files | lines | characters
+Language | Files | Lines | Characterss
 --- | --- | --- | ---
-Batch File | 1 file | 1 line | 18 characters
-Brainfuck | 1 file | 1 line | 115 characters
-C | 1 file | 5 lines | 78 characters
-C# | 1 file | 8 lines | 133 characters
-Haskell | 1 file | 1 line | 30 characters
-Java | 1 file | 5 lines | 108 characters
-JavaScript | 1 file | 2 lines | 30 characters
-PostgreSQL | 1 file | 7 lines | 141 characters
-Python | 1 file | 1 line | 21 characters
+Batch File | 1 | 1 | 18
+Brainfuck | 1 | 1 | 115
+C | 1 | 5 | 78
+C# | 1 | 8 | 133
+Haskell | 1 | 1 | 30
+Java | 1 | 5 | 108
+JavaScript | 1 | 2 | 30
+PostgreSQL | 1 | 7 | 141
+Python | 1 | 1 | 21

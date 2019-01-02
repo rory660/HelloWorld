@@ -6,11 +6,11 @@ def getText(language):
 
 def getData(language):
 	text = getText(language)
-	return {"file" : len(os.listdir("../helloWorld/" + language)), "line" : len(text.split("\n")), "character" : len(text)}
+	return {"Files" : len(os.listdir("../helloWorld/" + language)), "Lines" : len(text.split("\n")), "Characters" : len(text)}
 
 def getFormattedData(language):
 	data = getData(language)
-	return language + " | " + " | ".join([str(value) + " " + str(key) + ("s" if value > 1 else "") for key, value in data.items()])
+	return language + " | " + " | ".join([str(val) for val in data.values()])
 
 def main():
 	languages = os.listdir("../helloWorld")
@@ -20,7 +20,7 @@ def main():
 
 	with open("../README.md", "w") as readme:
 		schema = getData(languages[0]).keys()
-		readme.write(template + "Language | " + "s | ".join(schema) + "s\n" + " | ".join(["---" for item in range(len(schema) + 1)]) + "\n" + "\n".join([getFormattedData(language) for language in languages]))
+		readme.write(template + "Language | " + " | ".join(schema) + "s\n" + " | ".join(["---" for item in range(len(schema) + 1)]) + "\n" + "\n".join([getFormattedData(language) for language in languages]))
 
 if __name__ == "__main__":
 	main()
