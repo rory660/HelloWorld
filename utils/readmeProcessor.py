@@ -10,7 +10,7 @@ def getData(language):
 
 def getFormattedData(language):
 	data = getData(language)
-	return "## " + language + "\n" + "\n\n".join([str(value) + " " + str(key) for key, value in data.items()]) + "\n---\n"
+	return "### " + language + "\n" + "\n\n".join([str(value) + " " + str(key) for key, value in data.items()]) + "\n\n---\n"
 
 def main():
 	languages = os.listdir("../helloWorld")

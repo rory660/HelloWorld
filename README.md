@@ -2,66 +2,74 @@
 Hello world in every language I've used.
 
 ## Languages
-## Batch File
+### Batch File
 1 files
 
 1 lines
 
 18 characters
+
 ---
 
-## C
+### C
 1 files
 
 5 lines
 
 78 characters
+
 ---
 
-## C#
+### C#
 1 files
 
 8 lines
 
 133 characters
+
 ---
 
-## Haskell
+### Haskell
 1 files
 
 1 lines
 
 30 characters
+
 ---
 
-## Java
+### Java
 1 files
 
 5 lines
 
 108 characters
+
 ---
 
-## JavaScript
+### JavaScript
 1 files
 
 2 lines
 
 30 characters
+
 ---
 
-## PostgreSQL
+### PostgreSQL
 1 files
 
 7 lines
 
 141 characters
+
 ---
 
-## Python
+### Python
 1 files
 
 1 lines
 
 21 characters
+
 ---
