@@ -20,7 +20,7 @@ def main():
 
 	with open("../README.md", "w") as readme:
 		schema = getData(languages[0]).keys()
-		readme.write(template + "Language | " + "s | ".join(schema) + "s\n" + " | ".join(["---" for item in schema]) + "\n" + "\n".join([getFormattedData(language) for language in languages]))
+		readme.write(template + "Language | " + "s | ".join(schema) + "s\n" + " | ".join(["---" for item in range(len(schema) + 1)]) + "\n" + "\n".join([getFormattedData(language) for language in languages]))
 
 if __name__ == "__main__":
 	main()
