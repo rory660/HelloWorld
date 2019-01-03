@@ -1,4 +1,4 @@
-# HelloWorld
-Hello world in every language I've used.
+# Hello World
+Hello world in a bunch of languages.
 
 ## Languages
